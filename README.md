@@ -78,10 +78,12 @@ In order to answer this question, we need to find:
 
 4.  Mode of **day\_of\_week**
 
+
 ### **Prepare**:
 
 I will use Cyclistic’s historical trip data to analyze and find trends
 and this data is enough to answer the questions.
+
 
 ### **Process**:
 
@@ -200,6 +202,7 @@ Same for **member\_casual** column.
     DISTINCT member_casual
     FROM `t-dragon-369617.BikeShare.divvy-trip-data`
 
+
 ### **Analyze**:
 
 **1)** Number of **trips** completed by each user type
@@ -264,6 +267,7 @@ Same for **member\_casual** column.
       member_casual,
       day
 
+
 ### **Share:**
 
 #### **1)** Number of **trips** completed by each user type
@@ -284,4 +288,20 @@ Same for **member\_casual** column.
 #### **4)** Mode of **day\_of\_week**
 
 ![mode-of-day](https://user-images.githubusercontent.com/85357838/204800378-e423ac61-bcd0-4174-ae7d-1c2c512ae4bf.png)
+
+
+### **Act:**
+
+Casual riders prefer to take longer trips (average 44 minutes) compared
+to members (average 17 minutes).
+
+Casual riders prefer bikes to use on the weekends
+
+#### Recommendation:
+
+-   This data shows casual riders how they could save more money in the
+    a long run by becoming a member instead of paying for rides based on
+    trip duration.
+
+-   Develop a weekend membership plan.
 
